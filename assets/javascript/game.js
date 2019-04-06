@@ -60,6 +60,7 @@ function game(){
         if (seconds < 1){
             window.clearInterval(update);
             quiz.innerHTML = "Game Over";
+            $('#button').on('click', stop.time);
         }
     }
 
