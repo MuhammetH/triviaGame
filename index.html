@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    <title>Trivia Game!</title>
+  </head>
+  <body>
+    <h1>Trivia Trivia Trivia!!</h1>
+    <text>Seconds Left:<text id="time">10</text></text><br>
+
+
+<form id = "quiz" name = "quiz">
+
+<p class = "questions">1-) What is the primare transport protocol used by the World Wide Web for delivering web content?</p>
+<input type = "radio" id = "multiC" name = "question1" value = "f">TCP <br>
+<input type = "radio" id = "multiC" name = "question1" value = "t">HTTP <br><br>
+
+<p class = "questions">2-) What does CSS stands for?</p>
+<input type = "radio" id = "multiC" name = "question2" value = "t">Cascading Style Sheet <br>
+<input type = "radio" id = "multiC" name = "question2" value = "f">Complete Sound Sheet <br><br>
+
+<p class = "questions">3-)Which is the correct CSS syntax?</p>
+<input type = "radio" id = "multiC" name = "question3" value = "f">{body;color:black} <br>
+<input type = "radio" id = "multiC" name = "question3" value = "t">Body {color: black} <br><br>
+
+<p class = "questions">4-) McAfee, the internet security company, became a subsidiary of which of these in 2011?</p>
+<input type = "radio" id = "multiC" name = "question4" value = "f">Microsoft<br>
+<input type = "radio" id = "multiC" name = "question4" value = "t">Intel<br>
+
+
+<input id = "button" type = "button" value = "Done!" onclick = "game();">
+
+
+</form>
+
+
+<div id = "results">
+    <p id = "correct-answers"></p>
+    <p id = "message"></p>
+    <img id = "image">
+</div>
+
+    <!-- Optional JavaScript -->
+    <script src="./assets/javascript/game.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
