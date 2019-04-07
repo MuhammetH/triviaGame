@@ -44,6 +44,7 @@ body {
 	background: rebeccapurple;
 	padding: 10px 20px 10px 20px;
 	min-width: 500px;
+	max-width: 540px;
 	border-radius: 20px;
     float: left;
     visibility: hidden;
@@ -58,3 +59,67 @@ body {
 #multiC {
 	display: inline;
 } 
+
+@media only screen and (max-width: 560px) {
+	body {
+		font-family: 'Source Sans Pro', sans-serif;
+		background-image: url(../images/8973.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		color: rebeccapurple;
+		
+	}
+	
+	#quiz {
+		margin:45px;
+		margin-top:25px;
+		background: blue;
+		padding: 10px 20px 10px 20px;
+		width: 400px;
+		border-radius: 20px;
+		float: left;
+	
+	}
+	
+	#button {
+		background: green;
+		border: none;
+		border-radius: 5px;
+		padding: 15px;
+		color: white;
+		font-size: 16px;
+		transition-duration: .5s;
+		margin-top: 15px;
+	}
+	
+	#button:hover {
+		background: white;
+		border: 2px solid green;
+		color: black;
+		cursor: pointer;
+	
+	}
+	
+	#results {
+		border: 2px;
+		margin: 45px;
+		background: blue;
+		padding: 10px 20px 10px 20px;
+		min-width: 500px;
+		border-radius: 20px;
+		float: left;
+		visibility: hidden;
+	
+	}
+	
+	#images {
+		max-width: 375px;
+		max-height: 250px;
+	}
+	
+	#multiC {
+		display: inline;
+	} 
+
+  }
