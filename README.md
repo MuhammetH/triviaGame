@@ -1,1 +1,2 @@
-# triviaGame
+FYI
+I got some of the questions that I used from google... 
